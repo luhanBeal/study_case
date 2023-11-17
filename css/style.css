@@ -14,7 +14,8 @@ ul {
 
 li {
 	position: relative;
-	left: -200px;
+	float: left;
+	left: -850px;
 	background: url(../img/seta.png) no-repeat left center;
 }
 ul {
@@ -46,4 +47,8 @@ a:hover {
 	background-position: right bottom;
 	background-color: #f99200;
 	color: #fff;
+}
+
+.clear_div {
+	clear: both;
 }

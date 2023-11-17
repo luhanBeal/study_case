@@ -22,13 +22,17 @@
         </li>
 		
 	</ul>
-    <h2>Playground</h2>
+    <div class="clear_div">
+        <h2>Playground</h2>
+    </div>
     
 </body>
     <script>
         gsap.to("#nav", {
             scrollTrigger: "#nav", // start the animation when "#nav" enters the viewport (once)
-            x: 200,
+            x: 850,
+            delay: 1.2, // wait 0.2 seconds from the last scroll event before doing the snapping
+            ease: "power1.inOut", // the ease of the snap animation ("power3" by default)
         });
     </script>
 </html>
