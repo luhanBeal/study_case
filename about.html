@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-	<title>Playground</title>
+	<title>Navegação vertical</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
 </head>
 <body id="home">
+	<h2>Home</h2>
     <ul id="nav">
         <li class="home">
             <a href="index.html">Home</a>
@@ -22,13 +22,18 @@
         </li>
 		
 	</ul>
-    <h2>Playground</h2>
-    
+
+
+	<!--
+	<h2>Lista de atividades</h2>
+	<ul>
+		<li>Ir ao dentista</li>
+		<li>Ir ao supermercado</li>
+		<li>Fazer almoço</li>
+		<li>Assitir série</li>
+		<li>Corre no parque</li>
+	</ul>
+		-->
+
 </body>
-    <script>
-        gsap.to("#nav", {
-            scrollTrigger: "#nav", // start the animation when "#nav" enters the viewport (once)
-            x: 200,
-        });
-    </script>
 </html>
