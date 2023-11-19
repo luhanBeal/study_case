@@ -3,27 +3,30 @@
 
 /******************************************
 Barra de navegação vertical
+*/
 
-ul {
-	
+/*
+ * Custom CSS
+ */
+
+:root {
+--bs-body-bg: var(--bs-gray-100);
+}
+
+.nav_ul_1 {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 }
-*/
 
-li {
+.nav_list_1 {
 	position: relative;
 	float: left;
 	left: -850px;
 	background: url(../img/seta.png) no-repeat left center;
 }
-ul {
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
-}
-ul a {
+
+.nav_ul_1 a {
 	/*border: 1px solid red;*/
 	width: 200px;
 	height: 40px;
@@ -35,7 +38,7 @@ ul a {
 	background:url(../img/menu.png)  no-repeat left  bottom;
 }
 
-a:hover {
+.nav_ul_1 a:hover {
 	background-position: right bottom;
 	background-color: #f99200;
 	color: #fff;
